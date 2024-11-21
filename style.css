@@ -6,6 +6,7 @@
 
 body {
     background-color: #f2efdd;
+    font-family: "Raleway", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
@@ -15,9 +16,25 @@ body {
     overflow: hidden;
 }
 
+
+.content {
+    margin-left: 220px;
+    padding: 50px 20px;
+}
+
 header {
     padding: 10px 0;
     text-align: center;
+    margin-left: 220px;
+    font-family: "Sometype Mono", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-family: "Sometype Mono", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.brechin-portrait {
+    
 }
 
 .vertical-nav {
@@ -28,6 +45,7 @@ header {
     left: 0;
     bottom: 0;
     overflow-y: auto;
+    font-family: "Sometype Mono", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav-links {
@@ -54,8 +72,8 @@ header {
     color: #1f1b11;
 }
 
-.content,
-footer, header {
+footer {
     margin-left: 220px;
     padding: 50px 20px;
+    font-family: "Sometype Mono", Verdana, Geneva, Tahoma, sans-serif;
 }
