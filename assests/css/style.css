@@ -17,7 +17,8 @@ body {
 }
 
 
-.content {
+.content,
+.icons {
     margin-left: 220px;
     padding: 50px 20px;
 }
@@ -31,10 +32,6 @@ header {
 
 h2 {
     font-family: "Sometype Mono", Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.brechin-portrait {
-    
 }
 
 .vertical-nav {
