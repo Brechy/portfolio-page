@@ -116,9 +116,15 @@ nav ul li {
     margin: auto;
 }
 
+.hero img {
+    height: 37.5rem;
+    width: 37.5rem;
+    margin: .625rem .625rem;
+}
+
 .bio {
     width: 25rem;
-    padding: 0.625rem;
+    padding: 1rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
@@ -130,6 +136,8 @@ nav ul li {
 .bio p {
     padding: 0.3rem 0;
 }
+
+/*Hero Section Ends*/
 
 .more-about {
     background-color: var(--bg-color);
@@ -336,5 +344,35 @@ footer {
 
     nav ul.show {
         transform: translateX(0);
+    }
+
+    .hero {
+        margin-top: -4rem;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .hero img {
+        height: 37.5rem;
+        width: 30rem;
+    }
+
+    .bio {
+        margin-top: -4rem;
+        margin-bottom: 2rem;
+        width: 20.5rem;
+    }
+
+    .more-about {
+        margin-top: 1rem;
+        padding: 1rem 3.5rem;
+    }
+
+    .more-about h2 {
+        text-align: center;
+    }
+
+    .more-about p {
+        text-align: justify;
     }
 }
